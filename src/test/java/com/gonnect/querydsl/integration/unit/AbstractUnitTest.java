@@ -22,8 +22,8 @@ import static org.junit.Assert.assertEquals;
 
 @SuppressWarnings("unchecked")
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = BaseIntegrationTest.TestApplication.class)
-public abstract class BaseIntegrationTest<T> {
+@ContextConfiguration(classes = AbstractUnitTest.TestApplication.class)
+public abstract class AbstractUnitTest<T> {
 
     protected Class<T> CLAZZ = (Class<T>)(new TypeToken<T>(getClass()){}).getRawType();
     protected RsqlMongoAdapter adapter;

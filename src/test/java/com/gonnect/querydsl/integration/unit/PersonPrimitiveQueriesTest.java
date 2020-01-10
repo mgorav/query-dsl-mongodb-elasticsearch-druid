@@ -5,42 +5,42 @@ import org.junit.Test;
 
 
 
-public class PersonPrimitiveQueriesTest extends BaseIntegrationTest<Person> {
+public class PersonPrimitiveQueriesTest extends AbstractUnitTest<Person> {
 
     // basic operators
     @Test
     public void testEquals() {
-        check("firstName==joe", "{\"firstName\": \"joe\"}");
+        check("firstName==gaurav", "{\"firstName\": \"gaurav\"}");
     }
 
     @Test
     public void testNotEquals() {
-        check("firstName!=joe","{\"firstName\": {\"$ne\": \"joe\"}}");
+        check("firstName!=naman","{\"firstName\": {\"$ne\": \"naman\"}}");
     }
 
     @Test
     public void testGreaterThan() {
-        check("age=gt=300", "{\"age\": {\"$gt\": 300}}");
+        check("age=gt=32", "{\"age\": {\"$gt\": 32}}");
     }
 
     @Test
     public void testGreaterThanOrEqualTo() {
-        check("age=ge=300", "{\"age\": {\"$gte\": 300}}");
+        check("age=ge=32", "{\"age\": {\"$gte\": 32}}");
     }
 
     @Test
     public void testLessThan() {
-        check("age=lt=300", "{\"age\": {\"$lt\": 300}}");
+        check("age=lt=30", "{\"age\": {\"$lt\": 30}}");
     }
 
     @Test
     public void testLessThanOrEqualTo() {
-        check("age=le=300", "{\"age\": {\"$lte\": 300}}");
+        check("age=le=31", "{\"age\": {\"$lte\": 31}}");
     }
 
     @Test
     public void testInListOfThings() {
-        check("firstName=in=(billy,bob,joel)", "{\"firstName\": {\"$in\": [\"billy\", \"bob\", \"joel\"]}}");
+        check("firstName=in=(aarika,naman,amay)", "{\"firstName\": {\"$in\": [\"aarika\", \"naman\", \"amay\"]}}");
     }
 
     @Test
