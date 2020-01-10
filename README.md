@@ -1,6 +1,6 @@
 # Mongo QureyDSL
 
-## Example Unit Test cases
+## Example Unit Test cases DynamoDB
 
 ```java
   // basic operators
@@ -65,6 +65,26 @@
                    "{\"$and\": [{\"$or\": [{\"$and\": [{\"firstName\": \"gaurav\"}, {\"lastName\": \"malhotra\"}]}, {\"$and\": [{\"firstName\": \"shikha\"}, {\"lastName\": \"malhotra\"}]}]}, {\"$or\": [{\"$and\": [{\"age\": 21}, {\"height\": 90}]}, {\"$and\": [{\"age\": 30}, {\"height\": 100}]}]}]}");
        }
 
+```
+
+## Example Unit Test cases Elastic Search
+
+Here directly Elastic Search QueryBuilder is generated from Query DSL
+
+```java
+ @Test
+    public void testIn() {
+        // Arrange
+        ComparisonOperator in = new ComparisonOperator("=in=", true);
+        QueryBuilder expectedQuery = termsQuery(selector, args);
+        ComparisonNode node = new ComparisonNode(in, selector, args);
+
+        // Act
+        QueryBuilder actualQuery = interpreter.interpret(node);
+
+        // Assert
+        assertEquals(expectedQuery, actualQuery);
+    }
 ```
 
 # Getting Started
