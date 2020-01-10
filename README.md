@@ -69,7 +69,7 @@
 
 ## Example Unit Test cases Elastic Search
 
-Here directly Elastic Search QueryBuilder is generated from Query DSL
+Here directly Elastic Search QueryBuilder is generated from Query DSL, as ElasticSearch provides nice abstraction by this builder
 
 ```java
  @Test
