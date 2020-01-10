@@ -1,7 +1,7 @@
-package com.gonnect.querydsl.integration.argconverters;
+package com.gonnect.querydsl.dynamodb.argconverters;
 
-import com.gonnect.querydsl.integration.structs.ConversionInfo;
-import com.gonnect.querydsl.integration.structs.Lazy;
+import com.gonnect.querydsl.dynamodb.structs.ConversionInfo;
+import com.gonnect.querydsl.dynamodb.structs.Lazy;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.data.mapping.PersistentPropertyPath;
 import org.springframework.data.mongodb.core.mapping.MongoMappingContext;

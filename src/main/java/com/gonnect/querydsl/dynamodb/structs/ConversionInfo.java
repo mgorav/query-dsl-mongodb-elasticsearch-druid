@@ -1,6 +1,6 @@
-package com.gonnect.querydsl.integration.structs;
+package com.gonnect.querydsl.dynamodb.structs;
 
-import com.gonnect.querydsl.integration.Operator;
+import com.gonnect.querydsl.dynamodb.Operator;
 
 public class ConversionInfo {
 

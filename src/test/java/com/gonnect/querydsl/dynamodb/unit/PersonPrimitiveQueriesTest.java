@@ -1,6 +1,6 @@
-package com.gonnect.querydsl.integration.unit;
+package com.gonnect.querydsl.dynamodb.unit;
 
-import com.gonnect.querydsl.integration.unit.models.Person;
+import com.gonnect.querydsl.dynamodb.unit.models.Person;
 import org.junit.Test;
 
 

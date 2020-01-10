@@ -1,7 +1,7 @@
-package com.gonnect.querydsl.integration.unit;
+package com.gonnect.querydsl.dynamodb.unit;
 
-import com.gonnect.querydsl.integration.ComparisonToCriteriaConverter;
-import com.gonnect.querydsl.integration.RsqlMongoAdapter;
+import com.gonnect.querydsl.dynamodb.ComparisonToCriteriaConverter;
+import com.gonnect.querydsl.dynamodb.RsqlMongoAdapter;
 import com.google.common.reflect.TypeToken;
 import org.bson.Document;
 import org.junit.Before;

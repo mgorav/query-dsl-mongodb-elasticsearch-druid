@@ -1,4 +1,4 @@
-package com.gonnect.querydsl.integration;
+package com.gonnect.querydsl.dynamodb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

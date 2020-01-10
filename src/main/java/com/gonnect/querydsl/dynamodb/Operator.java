@@ -1,4 +1,4 @@
-package com.gonnect.querydsl.integration;
+package com.gonnect.querydsl.dynamodb;
 
 import cz.jirutka.rsql.parser.ast.ComparisonOperator;
 import cz.jirutka.rsql.parser.ast.RSQLOperators;

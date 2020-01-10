@@ -1,11 +1,11 @@
-package com.gonnect.querydsl.integration;
+package com.gonnect.querydsl.dynamodb;
 
-import com.gonnect.querydsl.integration.argconverters.EntityFieldTypeConverter;
-import com.gonnect.querydsl.integration.argconverters.NoOpConverter;
-import com.gonnect.querydsl.integration.argconverters.OperatorSpecificConverter;
-import com.gonnect.querydsl.integration.argconverters.StringToQueryValueConverter;
-import com.gonnect.querydsl.integration.structs.ConversionInfo;
-import com.gonnect.querydsl.integration.utils.LazyUtils;
+import com.gonnect.querydsl.dynamodb.argconverters.EntityFieldTypeConverter;
+import com.gonnect.querydsl.dynamodb.argconverters.NoOpConverter;
+import com.gonnect.querydsl.dynamodb.argconverters.OperatorSpecificConverter;
+import com.gonnect.querydsl.dynamodb.argconverters.StringToQueryValueConverter;
+import com.gonnect.querydsl.dynamodb.structs.ConversionInfo;
+import com.gonnect.querydsl.dynamodb.utils.LazyUtils;
 import cz.jirutka.rsql.parser.ast.ComparisonNode;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.data.mongodb.core.mapping.MongoMappingContext;

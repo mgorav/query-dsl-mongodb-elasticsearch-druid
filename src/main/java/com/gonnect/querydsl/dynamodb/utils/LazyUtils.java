@@ -1,6 +1,6 @@
-package com.gonnect.querydsl.integration.utils;
+package com.gonnect.querydsl.dynamodb.utils;
 
-import com.gonnect.querydsl.integration.structs.Lazy;
+import com.gonnect.querydsl.dynamodb.structs.Lazy;
 
 import java.util.List;
 

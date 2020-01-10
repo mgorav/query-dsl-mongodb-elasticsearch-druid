@@ -1,4 +1,4 @@
-package com.gonnect.querydsl.integration;
+package com.gonnect.querydsl.dynamodb;
 
 import cz.jirutka.rsql.parser.ast.*;
 import org.springframework.data.mongodb.core.query.Criteria;

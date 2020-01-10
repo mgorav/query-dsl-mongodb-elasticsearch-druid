@@ -1,4 +1,4 @@
-package com.gonnect.querydsl.integration.unit.models;
+package com.gonnect.querydsl.dynamodb.unit.models;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

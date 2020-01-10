@@ -1,4 +1,4 @@
-package com.gonnect.querydsl.integration.structs;
+package com.gonnect.querydsl.dynamodb.structs;
 
 import java.util.function.Supplier;
 
