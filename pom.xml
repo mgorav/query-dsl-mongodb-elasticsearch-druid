@@ -12,7 +12,7 @@
     <artifactId>query-dsl</artifactId>
     <version>1.0.0</version>
     <name>query-dsl</name>
-    <description>Spring BOOT Query DSL - MongoDB and Elastic Search</description>
+    <description>Spring BOOT Query DSL - MongoDB,Elastic Search and Druid</description>
 
     <properties>
         <java.version>11</java.version>
